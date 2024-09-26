@@ -1,0 +1,54 @@
+.logros-container {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+  
+  .logro-item {
+    background-color: #f9fbfc; 
+    border-left: 4px solid #f36969; 
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .logro-item strong {
+    font-size: 18px;
+    color: #924318; 
+  }
+  
+  .logro-item p {
+    font-size: 14px;
+    color: #5d6d7e; 
+    margin-top: 5px;
+  }
+  
+  .logro-item:hover {
+    background-color: #e1f5f2; 
+    border-left-color: #924318; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  }
+  
+  @media (max-width: 600px) {
+    .logro-item {
+      padding: 10px 15px; 
+    }
+  
+    .logro-item strong {
+      font-size: 16px; 
+    }
+  
+    .logro-item p {
+      font-size: 13px; 
+    }
+  }
