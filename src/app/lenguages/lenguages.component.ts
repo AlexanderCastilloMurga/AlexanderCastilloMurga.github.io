@@ -14,8 +14,8 @@ export class LenguagesComponent {
 
   ngOnInit(): void {
     this.languages = [
-      "English",
-      "Spanish"
+      "Ingles",
+      "Español"
     ];
   }
 }

@@ -1,0 +1,7 @@
+<h3>Logros y reconocimientos</h3>
+<div class="logros-container">
+    <div *ngFor="let logro of logros" class="logro-item">
+        <strong>{{ logro.nombre }}</strong> - {{ logro.fecha }}
+        <p>{{ logro.descripcion }}</p>
+    </div>
+</div>
