@@ -1,0 +1,46 @@
+.interests-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50; 
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+  
+  .interests-container span {
+    margin: 0 5px; 
+    color: #924318;
+  }
+  
+  .interests-container span::after {
+    content: '|'; 
+    color: #5d6d7e; 
+    margin-left: 5px;
+  }
+  
+  .interests-container span:last-child::after {
+    content: '';
+  }
+  
+  @media (max-width: 600px) {
+    .interests-container {
+      font-size: 14px; 
+    }
+  
+    .interests-container span {
+      margin: 0 3px;
+    }
+  }
+  
