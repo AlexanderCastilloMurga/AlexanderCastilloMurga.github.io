@@ -1,0 +1,6 @@
+<h3>Intereses</h3>
+<div class="interests-container">
+    <span *ngFor="let interest of interests; let i = index">
+        {{ interest }}<span *ngIf="i < interests.length - 1">  </span>
+    </span>
+</div>
